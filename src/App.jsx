@@ -7,8 +7,8 @@ export default function ARModelViewer() {
   return (
     <model-viewer
       ref={modelRef}
-      src="public/model/Sunflower Bouquet.glb"
-      ios-src="public/model/Sunflower Bouquet.glb"
+      src="/model/Sunflower Bouquet.glb"
+      ios-src="/model/Sunflower Bouquet.glb"
       alt="A 3D model"
       ar
       ar-modes="webxr scene-viewer quick-look"
